@@ -1,0 +1,49 @@
+.Heading{
+    background-color: rgba(5, 5, 5, 0.281);
+    height: auto;
+    width: 50;
+    color: rgb(214, 212, 60);
+    text-align: center; 
+    text-shadow: 1px 1px 6px #000000;   
+}
+
+body{
+    background-image: url(./Assets/Images/Scan\ Lines.jpg);
+    background-position: left top;
+    background-repeat: repeat;    
+}
+
+.bodytext{
+    text-align: left;
+    color: #e4dfdf; 
+    text-shadow: 1px 1px 6px #000000;
+}
+
+a{
+    color: rgb(145, 211, 211);
+}
+a:hover{
+    background-color: rgb(5, 5, 5, 0.281);
+}
+
+a:active{
+    color: #000;
+}
+
+.NavBar {
+    text-align: center;
+    list-style-type: none;
+    background-color: #914242; 
+       
+}
+
+.NavBar li {
+    display: inline;
+    padding: 25px; 
+}
+
+
+   
+    
+
+
