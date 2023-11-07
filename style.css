@@ -75,14 +75,14 @@ a:active{
     width: 24.99999%;
   }
   
-  @media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 1000px) {
     .responsive {
-      width: 49.99999%;
+      width: 45.99999%;
       margin: 6px 6px;
     }
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 500px) {
     .responsive {
       width: 100%;
     }
