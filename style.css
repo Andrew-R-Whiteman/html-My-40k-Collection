@@ -16,24 +16,41 @@ body{
 .bodytext{
     text-align: left;
     color: #e4dfdf; 
-    text-shadow: 1px 1px 6px #000000;
+    text-shadow: 1px 1px 6px #000000;    
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.flex-container{
+    display: flex;
+    /*background-color: rgba(34, 36, 37, 0.342)*/
+}
+
+.flex-container  {
+    background-color:none;
+    margin: 50px 100px;
+    padding: 20px;
+    float: top;
 }
 
 a{
-    color: rgb(145, 211, 211);
+    color: rgb(145, 211, 211);    
+    text-decoration: none; 
 }
+
 a:hover{
     background-color: rgb(5, 5, 5, 0.281);
 }
 
 a:active{
     color: #000;
+    
 }
 
 .NavBar {
     text-align: center;
     list-style-type: none;
-    background-color: #914242;        
+    background-color: #914242;     
 }
 
 .NavBar li {
