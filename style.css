@@ -1,10 +1,14 @@
 .Heading{
     background-color: rgba(5, 5, 5, 0.281);
-    height: auto;
+    height: 90px;
     width: 50;
     color: rgb(214, 212, 60);
     text-align: center; 
-    text-shadow: 1px 1px 6px #000000;   
+    text-shadow: 1px 1px 6px #000000;
+    font-family: "Lucida Console";
+    padding: 1px;
+    box-shadow: 1px 1px 6px #000000;
+    border-radius: 2px;
 }
 
 body{
@@ -18,52 +22,55 @@ body{
     color: #e4dfdf; 
     text-shadow: 1px 1px 6px #000000;    
     font-size: 16px;
-    font-family: monospace;
-}
-
-.flex-container{
-    display: flex;
-    /*background-color: rgba(34, 36, 37, 0.342)*/
+    font-family: "Lucida Console";
 }
 
 .flex-container  {
-    background-color:none;
+    display: flex;
+    background-color:rgba(123, 145, 145, 0.404);
     margin: 50px 100px;
     padding: 20px;
     float: top;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    box-shadow: 1px 1px 6px #000000;
 }
 
 a{
     color: rgb(145, 211, 211);    
-    text-decoration: none; 
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 2px;
+    
 }
 
-a:hover{
-    background-color: rgb(5, 5, 5, 0.281);
+.Heading a:hover{
+    background-color: rgba(241, 245, 19, 0.596);
 }
 
 a:active{
-    color: #000;
-    
+    color: #000; 
 }
 
 .NavBar {
     text-align: center;
     list-style-type: none;
-    background-color: #914242;     
+    background-color: #ff07073a; 
+    box-shadow: 1px 1px 6px #000000;  
+    border-radius: 2px;  
 }
 
 .NavBar li {
     display: inline;
     padding: 25px; 
+    
 }
 
 .gallery {
-    /*margin: 5px;*/
     border: 1px solid #000000;
-    /*float: left;*/
-    /*width: 480px;*/
     box-shadow: 1px 1px 6px #000000;
+    border-radius: 10px;
 }
 
 .gallery:hover{
@@ -73,6 +80,7 @@ a:active{
 .gallery img{
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
    
 .desc{
@@ -92,22 +100,18 @@ a:active{
     width: 24.99999%;
   }
   
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 950px) {
     .responsive {
       width: 45.99999%;
       margin: 6px 6px;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px) {
     .responsive {
       width: 100%;
     }
   }
 
-/*.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
+
 
