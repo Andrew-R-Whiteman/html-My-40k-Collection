@@ -9,6 +9,7 @@
     padding: 1px;
     box-shadow: 1px 1px 6px #000000;
     border-radius: 2px;
+    clear:both;
 }
 
 body{
@@ -47,6 +48,7 @@ a{
 
 .Heading a:hover{
     background-color: rgba(241, 245, 19, 0.596);
+    border-radius: 2px;  
 }
 
 a:active{
@@ -113,5 +115,26 @@ a:active{
     }
   }
 
+  .Footer {
+    background: #ff07073a; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+    text-shadow: 1px 1px 6px #000000;
+    font-family: "Lucida Console";
+    clear: both; 
+    position: relative; 
+    margin-top: 200px; 
+    box-shadow: 1px 1px 6px #000000; 
+    border-radius: 10px; 
+  }
+    
+  .Footer a:hover {
+    background-color: rgba(241, 245, 19, 0.596); 
+    padding: 2px; 
+    border-radius: 3px;  
+  }
+  
+  
 
 
