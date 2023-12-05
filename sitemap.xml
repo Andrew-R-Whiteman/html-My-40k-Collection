@@ -3,21 +3,21 @@
 	<url>
 		<loc>https://www.40collection.com</loc>
 		<priority>1.00</priority>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://www.40collection.com/SpaceMarines.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-11-30</lastmod>
-	</url>
-	<url>
-		<loc>https://www.40collection.com/Necrons.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-05</lastmod>
 	</url>
 	<url>
 		<loc>https://www.40collection.com/Drukhari.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-11-30</lastmod>
+		<lastmod>2023-12-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.40collection.com/Necrons.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-12-05</lastmod>
+	</url>
+	<url>
+		<loc>https://www.40collection.com/SpaceMarines.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-12-05</lastmod>
 	</url>
 </urlset>

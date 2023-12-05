@@ -1,7 +1,7 @@
 .Heading{
     background-color: rgba(5, 5, 5, 0.281);
     height: 90px;
-    width: 50;
+    width: auto;
     color: rgb(214, 212, 60);
     text-align: center; 
     text-shadow: 1px 1px 6px #000000;
@@ -10,6 +10,10 @@
     box-shadow: 1px 1px 6px #000000;
     border-radius: 2px;
     clear:both;
+}
+
+h4{
+    display: none;
 }
 
 body{
@@ -26,12 +30,11 @@ body{
     font-family: "Lucida Console";
 }
 
-.flex-container  {
+.flex-container{
     display: flex;
     background-color:rgba(123, 145, 145, 0.404);
     margin: 50px 100px;
     padding: 20px;
-    float: top;
     border: none;
     border-radius: 10px;
     width: auto;
@@ -55,7 +58,7 @@ a:active{
     color: #000; 
 }
 
-.NavBar {
+.NavBar{
     text-align: center;
     list-style-type: none;
     background-color: #ff07073a; 
@@ -63,13 +66,13 @@ a:active{
     border-radius: 2px;  
 }
 
-.NavBar li {
+.NavBar li{
     display: inline;
     padding: 25px; 
     
 }
 
-.gallery {
+.gallery{
     border: 1px solid #000000;
     box-shadow: 1px 1px 6px #000000;
     border-radius: 10px;
@@ -96,7 +99,7 @@ a:active{
     box-sizing: border-box;
 }
 
-.responsive {
+.responsive{
     padding: 6px 6px;
     float: left;
     width: 24.99999%;
@@ -129,7 +132,7 @@ a:active{
     border-radius: 10px; 
   }
     
-  .Footer a:hover {
+  .Footer a:hover{
     background-color: rgba(241, 245, 19, 0.596); 
     padding: 2px; 
     border-radius: 3px;  
